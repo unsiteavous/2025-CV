@@ -1,0 +1,13 @@
+# À faire dans le CV
+- [x] image ronde
+- [x] margin & padding
+- [x] import de police
+- [x] mailto et tel
+- [x] barres de progressions sur les maîtrises des langues
+- [x] hover
+- [ ] effet d'entrée
+- [x] pictogramme en before
+- [ ] liens sur les sections
+- [ ] bouton fixe contactez-moi
+- [ ] responsive
+- [ ] mobile first
