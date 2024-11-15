@@ -2,7 +2,6 @@
   font-family: 'comfortaa';
   src: url('../fonts/Comfortaa-Regular.woff');
   src: url('../fonts/Comfortaa-Regular.ttf');
-  font-weight: normal;
 }
 
 @font-face {
@@ -10,7 +9,7 @@
   src: url('../fonts/Comfortaa-Bold.ttf');
 }
 body {
-  font-family: 'comfortaa-bold';
+  font-family: 'comfortaa', sans-serif;
   margin: 0;
 }
 
@@ -33,7 +32,6 @@ header img {
 
 header img:hover {
   cursor:pointer;
-  transform: scale(1.05);
   transform: rotate(360deg);
   transition: 1s ease-in-out;
 }
@@ -123,12 +121,68 @@ main h3, .column h3{
   width: 100%;
   text-align: center;
   color: white;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 10px;
 }
 
 .progression {
   background-color: blue;
-  width: 100%;
   height: 20px;
   margin-bottom: -19px;
-  border-radius: 4px;
+  border-radius: 3px;
+  position: relative;
+  z-index: 9;
+}
+
+.cadre span {
+  position: relative;
+  z-index: 10;
+}
+
+.francais .progression {
+  width: 100%;
+}
+
+.anglais .progression {
+  width: 80%;
+}
+
+.italien .progression {
+  width: 5%;
+}
+
+.btn-contact {
+  position: fixed;
+  bottom:20px;
+  right:100px;
+
+  background-color: chartreuse;
+  color: purple;
+  border: 8px solid black;
+  border-radius: 20px;
+  padding: 0 20px;
+
+  text-decoration: none;
+  transition: 1s;
+}
+
+.btn-contact:hover {
+  transform: scale(1.1);
+  right: 130px;
+}
+
+.arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  text-decoration: none;
+
+  background-color: chartreuse;
+  border: 8px solid black;
+  border-radius: 20px;
+  padding: 10px;
 }

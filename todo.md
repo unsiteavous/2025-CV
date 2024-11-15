@@ -8,6 +8,6 @@
 - [ ] effet d'entrée
 - [x] pictogramme en before
 - [ ] liens sur les sections
-- [ ] bouton fixe contactez-moi
+- [X] bouton fixe contactez-moi
 - [ ] responsive
 - [ ] mobile first
